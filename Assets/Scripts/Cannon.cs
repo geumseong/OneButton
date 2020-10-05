@@ -40,7 +40,9 @@ public class Cannon : MonoBehaviour
             rotation = true;
             float holdDownTime = Time.time - holdDownStartTime;
             CalculateForce(holdDownTime);
-            LaunchBall(CalculateForce(holdDownTime));
+            if(Time.timeScale == 1f){
+                LaunchBall(CalculateForce(holdDownTime));
+            }
         }
     }
 

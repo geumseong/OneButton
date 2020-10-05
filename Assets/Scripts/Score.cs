@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class Score : MonoBehaviour
         lives--;
         livesText.GetComponent<Text>().text = "Lives: " + lives;
         if(lives == 0){
+            Time.timeScale = 0f;
             gameOverMenu.SetActive(true);
         }
     }

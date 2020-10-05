@@ -10,3 +10,4 @@
  - Added a title for the game in the main menu.
  - Added credits in the main menu section.
  - Adjusted the font size of the score UI to be more visual.
+ - Fixed issue that the ball can be shot even when the game is over, or paused.
