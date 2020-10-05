@@ -13,6 +13,8 @@ public class StateManager : MonoBehaviour
     int livesCounter;
     int scoreCounter;
     public GameObject gameOverMenu;
+    public GameObject mainMenu;
+    public GameObject creditMenu;
 
 
     // Start is called before the first frame update
@@ -57,6 +59,16 @@ public class StateManager : MonoBehaviour
 
     public void Quit(){
         Application.Quit();
+    }
+
+    public void OpenCredit(){
+        mainMenu.SetActive(false);
+        creditMenu.SetActive(true);
+    }
+
+    public void CloseCredit(){
+        mainMenu.SetActive(true);
+        creditMenu.SetActive(false);
     }
 
 }
