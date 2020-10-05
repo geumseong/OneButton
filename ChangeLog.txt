@@ -1,0 +1,12 @@
+2020 - October - 04
+ - Finished building the gameplay of the game.
+
+2020 - October - 04
+ - Original gameplay idea was to shoot a ball into a randomly generated basketball net.
+ - The actual gameplay was closer to just shooting the ball at the net, instead of letting the ball go through the net.
+ - Due to this reason, changed the basketball net asset to a target.
+
+2020 - October - 05
+ - Added a title for the game in the main menu.
+ - Added credits in the main menu section.
+ - Adjusted the font size of the score UI to be more visual.
